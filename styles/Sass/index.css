@@ -1,0 +1,34 @@
+* {
+  box-sizing: 0;
+}
+
+body {
+  background-color: #FCFCFC;
+}
+body .navbar {
+  background-color: #FCFCFC;
+  position: fixed;
+  /* Set the navbar to fixed position */
+  top: 0;
+  /* Position the navbar at the top of the page */
+  width: 100%;
+  /* Full width */
+}
+body .navbar .container-fluid {
+  height: 50px;
+}
+body .navbar .container-fluid ul a {
+  color: black;
+  font-size: 2rem;
+}
+body .navbar .container-fluid ul a:hover {
+  background-color: #FCFCFC;
+}
+body .navbar .container-fluid .navbar-brand {
+  width: 80px;
+  height: auto;
+}
+body .navbar .container-fluid .nav {
+  margin-top: 15px;
+  font-size: large;
+}/*# sourceMappingURL=index.css.map */
